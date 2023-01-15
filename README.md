@@ -1,5 +1,5 @@
 # MUSIX
-## A Java game based on the game SongTrivia 2 from https://songtrivia2.io/play/online
+## A Java game displayed in JFrame where a player tries to guess the song name by being given 4 different options to earn as many points as possible, based on the game SongTrivia 2 from https://songtrivia2.io/play/online
 
 ## How does anyone play?
 

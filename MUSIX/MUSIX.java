@@ -10,17 +10,18 @@ import java.io.IOException;;
  * MUSIX
  *
  * @author Gary Young
- * 
+ *
+ * @description
  * Originally finished on 05/13/2022
  * 01/14/2023 bugfix: now properly stops playing music immediately after answering 10th question
  * 01/14/2023 addition 1: added psvm (String[] args) linking to MUSIX() so user doesn't have to create an object on start anymore
  * 01/14/2023 addition 2: added "Ready to play?" to the top of the game when started at top of public MUSIX()
  * 01/14/2023 addition 3: added ready boolean to search for a yes in JOptionPane's "are you really sure" question
  *                        in public void actionPerformed(ActionEvent e)'s question 0
- * 
+ *
  * @version (1/14/2023)
  * MUSIX plays a game in JFrame where the user decides
- * what song the song is from a 10-15 second clip. 
+ * what song the song is from a 10-15 second clip.
  */
 
 // the MUSIX class that sets up the interface in JFrame for the user to play in,
@@ -58,7 +59,7 @@ public class MUSIX extends JFrame implements ActionListener{
     private Clip clip;
     // song name (in .wav) to play
     private static String filePath;
-    
+
     // buttons, header, & footer without functionality
     public MUSIX() {
         // close JFrame if click on top right X button
@@ -142,7 +143,7 @@ public class MUSIX extends JFrame implements ActionListener{
         // button3
         // create button3
         option3 = new JButton();
-        // set button background color (hex code (182,13,13)) 
+        // set button background color (hex code (182,13,13))
         option3.setBackground(new java.awt.Color(182,13,13));
         // set button text color (white)
         option3.setForeground(Color.white);
@@ -178,7 +179,7 @@ public class MUSIX extends JFrame implements ActionListener{
         // button4
         // create button4
         option4 = new JButton();
-        // set button background color (hex code (232,86,232)) 
+        // set button background color (hex code (232,86,232))
         option4.setBackground(new java.awt.Color(232,86,232));
         // set button text color (white)
         option4.setForeground(Color.white);
@@ -214,7 +215,7 @@ public class MUSIX extends JFrame implements ActionListener{
         // hint
         // create hint button
         hint = new JButton();
-        // set button background color (blue) 
+        // set button background color (blue)
         hint.setBackground(Color.blue);
         // set button text color (orange)
         hint.setForeground(Color.orange);
@@ -310,7 +311,7 @@ public class MUSIX extends JFrame implements ActionListener{
                 question0();
                 // make hint button visible
                 hint.setVisible(true);
-             }
+            }
             // double check everything updates
             revalidate();
         }
@@ -376,7 +377,7 @@ public class MUSIX extends JFrame implements ActionListener{
             // check if hint appears or not
             hint();
             // send message to user they won
-            JOptionPane.showMessageDialog(null,"u win! +5 points! \ncurrent streak: " + streak + "\nkeep going!", "correct :)", JOptionPane.PLAIN_MESSAGE); 
+            JOptionPane.showMessageDialog(null,"u win! +5 points! \ncurrent streak: " + streak + "\nkeep going!", "correct :)", JOptionPane.PLAIN_MESSAGE);
             // if question is 11, ignore streak and go to gameOver message
             if (question==11){
                 // go to gameOver message
@@ -402,7 +403,7 @@ public class MUSIX extends JFrame implements ActionListener{
             // check if hint appears or not
             hint();
             // send message to user they won
-            JOptionPane.showMessageDialog(null,"u win! +3 points! \ncurrent streak: " + streak + "\nkeep going!", "correct :)", JOptionPane.PLAIN_MESSAGE); 
+            JOptionPane.showMessageDialog(null,"u win! +3 points! \ncurrent streak: " + streak + "\nkeep going!", "correct :)", JOptionPane.PLAIN_MESSAGE);
             // if question is 11, ignore streak and go to gameOver message
             if (question==11){
                 // stop music
@@ -460,17 +461,17 @@ public class MUSIX extends JFrame implements ActionListener{
     // play audio
     public void playMusic(){
         try {
-             // get the file (.wav)
-             URL url = this.getClass().getClassLoader().getResource(filePath);
-             // open an audio input stream
-             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-             // get a sound clip resource
-             clip = AudioSystem.getClip();
-             // open audio clip and load samples from the audio input stream
-             clip.open(audioIn);
-             // start the music (audio)
-             clip.start();
-         // if audio can't be played diagnose the exception
+            // get the file (.wav)
+            URL url = this.getClass().getClassLoader().getResource(filePath);
+            // open an audio input stream
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            // get a sound clip resource
+            clip = AudioSystem.getClip();
+            // open audio clip and load samples from the audio input stream
+            clip.open(audioIn);
+            // start the music (audio)
+            clip.start();
+            // if audio can't be played diagnose the exception
         } catch (UnsupportedAudioFileException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -525,7 +526,7 @@ public class MUSIX extends JFrame implements ActionListener{
         option4.setText("<html>Shadoma<br />By Mini Vandals</html>");
         // make hint button show "HINT" (may have changed from question0() call)
         hint.setText("HINT");
-        
+
     }
     // 2nd question setup
     public void question2(){
@@ -728,7 +729,7 @@ public class MUSIX extends JFrame implements ActionListener{
         Object src = e.getSource(); // choice/button selected
         // when selecting hint button
         // and question is NOT the game over question (11)
-        // selecting hint button overrides all other buttons 
+        // selecting hint button overrides all other buttons
         // when question number is not 11
         if (src==hint && !(question==11)){
             // make options 2&3 wrong
@@ -763,7 +764,7 @@ public class MUSIX extends JFrame implements ActionListener{
         // when question number is 0 (beginning pre-game question)
         if (question==0){
             // close application if option4 is selected
-            if (src == hint){    
+            if (src == hint){
                 // close application
                 System.exit(0);
             }
@@ -814,7 +815,7 @@ public class MUSIX extends JFrame implements ActionListener{
                 // and send message to user they lost
                 lose();
             }
-            }
+        }
         // when question number is 2
         else if (question==2){
             // make option2 win
@@ -829,11 +830,11 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option1||src==option3||src==option4){
                 // setup next question (3)
                 question3();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
-            }
+        }
         // when question number is 3
         else if (question==3){
             // make option4 win
@@ -848,12 +849,12 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option3||src==option1){
                 // setup next question (4)
                 question4();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
 
-            }
+        }
         // when question number is 4
         else if (question==4){
             // make option3 win
@@ -868,11 +869,11 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option1||src==option4){
                 // setup next question (5)
                 question5();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
-            }
+        }
         // when question number is 5
         else if (question==5){
             // make option4 win
@@ -887,11 +888,11 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option1||src==option3){
                 // setup next question (6)
                 question6();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
-            }
+        }
         // when question number is 6
         else if (question==6){
             // make option3 win
@@ -906,7 +907,7 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option1||src==option4){
                 // setup next question (7)
                 question7();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
@@ -925,7 +926,7 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option1||src==option3||src==option4){
                 // setup next question (8)
                 question8();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
@@ -945,7 +946,7 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option3||src==option1){
                 // setup next question (9)
                 question9();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
@@ -964,7 +965,7 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option2||src==option1||src==option4){
                 // setup next question (10)
                 question10();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
             }
@@ -985,7 +986,7 @@ public class MUSIX extends JFrame implements ActionListener{
             else if (src == option1||src==option2||src==option4){
                 // stop music
                 clip.stop();
-                // end streak if there is one 
+                // end streak if there is one
                 // and send message to user they lost
                 lose();
                 // change header text to game over
@@ -1011,8 +1012,3 @@ public class MUSIX extends JFrame implements ActionListener{
         MUSIX musix = new MUSIX();
     }
 }
-        
-    
-
-
-

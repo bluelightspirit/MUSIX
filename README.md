@@ -26,7 +26,7 @@ As soon as the user acculumates at least 6 points, the hint button will appear a
 
 Because as soon as you obtain a streak with 6 or more correct songs in a row, you will gain the most points in the game for streaking. It is also because you need 6 or more points to use up a hint.
 
-Although an earlier iteration made in early May 2022 had a streak of 6+ songs correct in a row allowing the user to gain 6 points, it was nerfed due to how the user could press "HINT" for every question and would make it 50/50 rather than 25/25/25/25. It was nerfed in mid May 2022.
+Although an earlier iteration made in early May 2022 (when I was a senior at high school) had a streak of 6+ songs correct in a row allowing the user to gain 6 points, it was nerfed due to how the user could press "HINT" for every question and would make it 50/50 rather than 25/25/25/25. It was nerfed in mid May 2022.
 
 ## Compiling
 

@@ -3,12 +3,14 @@
 
 ## How does anyone play?
 
+Anyone should be aiming to see the game that looks like this:
+![musix_ready-to-play](https://user-images.githubusercontent.com/22280271/213863759-61ce9e86-58ae-42f0-811a-905fe70fd7e8.png)
+
 First, the player must download the game and it's files, and double check if the [MUSIX](https://github.com/bluelightspirit/MUSIX/tree/main/MUSIX) folder has 10 songs and [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java). After that, the player should open the [MUSIX](https://github.com/bluelightspirit/MUSIX/tree/main/MUSIX) folder, then run [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java)'s main method. To do that, it is suggested to download the ZIP file from [Releases](https://github.com/bluelightspirit/Connect4/releases/) or copy the repo from a console like Git. Then, all 3 files should be compiled. After that, [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java) can be ran using any IDE that supports Java such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).
 
 Note: If the player wants to try to have fun or they want to make me happier by playing the game as intended by not having an answer sheet, they shouldn't open the credits folder until after they want the link to all of the songs played.
 
 After that, to play this game, the player must click "Yes" then "Yes. I agree 100%" if they want to play at the beginning of the game to start the game, confirming their audio is on and they are really sure they want to play, which should look like this:\
-![musix_ready-to-play](https://user-images.githubusercontent.com/22280271/213863759-61ce9e86-58ae-42f0-811a-905fe70fd7e8.png)
 ![image](https://user-images.githubusercontent.com/22280271/213866461-7b6edaec-8010-4f5c-9adc-e9c824447f9f.png)\
 After that, the program will output ~20-30 second audio clip where the player shall select any of the 4 options as their guess. If they get it right, they will gain a point, or 3 points, or 5 points, depending on their streak they currently have. If they get it wrong, their streak ends. To use a hint, the player must have at least 6 points to have the option to remove two of the incorrect options for the songs, which will take away 6 points from the player's normal game points.
 

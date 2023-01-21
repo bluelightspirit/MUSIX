@@ -45,7 +45,7 @@ Although an earlier iteration made when I was a senior in high school in early M
 6) How to play and stop audio in Java.
 7) How to display a message dialog to the user.
 8) How to make a window popup close after any button press.
-9) How to properly make a functional game using JFrame by changing the text, questions, audio clip, amount of points, and if hint button should appear per question, using all of those skills I learned above, in addition with my previous knowledge on how to add an amount of points.
+9) How to properly make a functional game using JFrame by changing the text, questions, audio clip, amount of points, and if hint button should appear per question, using all of those skills I learned above in addition with my previous knowledge on how to add an amount of points.
 
 ## Compiling
 

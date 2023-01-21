@@ -3,7 +3,7 @@
 
 ## How does anyone play?
 
-First, the player must download the game and it's files. After that, the player should open the MUSIX folder, then run MUSIX.java's main method. I suggest running it through BlueJ. If the player wants to try to have fun or they want to make me happier by playing the game as intended by not having an answer sheet, they shouldn't open the credits folder until after you want the link to all of the songs played.
+First, the player must download the game and it's files. After that, the player should open the MUSIX folder, then run MUSIX.java's main method. I suggest running it through BlueJ. If the player wants to try to have fun or they want to make me happier by playing the game as intended by not having an answer sheet, they shouldn't open the credits folder until after they want the link to all of the songs played.
 
 After that, to play this game, the player must click "Yes" then "Yes. I agree 100%" if they want to play at the beginning of the game to start the game, confirming their audio is on and they are really sure they want to play, which should look like this:\
 ![musix_ready-to-play](https://user-images.githubusercontent.com/22280271/213863759-61ce9e86-58ae-42f0-811a-905fe70fd7e8.png)

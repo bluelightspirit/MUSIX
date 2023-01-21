@@ -22,10 +22,10 @@ After they get through 10 questions, it will ask if they want to play again. If 
 
 ## How do streaks work?
 
-If you obtain a streak with 0-2 songs correct in a row, you will gain only 1 point per question correct.
-If you obtain a streak with 3-5 songs correct in a row, you will gain 3 points rather than 1.
-If you obtain a streak with 6+ songs correct in a row, you will gain 5 points rather than 3.
-If you get one song wrong at any time during your streak, your streak ends.
+If the player obtains a streak with 0-2 songs correct in a row, they will gain only 1 point per question correct.
+If the player obtains a streak with 3-5 songs correct in a row, they will gain 3 points rather than 1.
+If the player obtains a streak with 6+ songs correct in a row, they will gain 5 points rather than 3.
+If the player get one song wrong at any time during their streak, their streak ends.
 
 ## How does hints work?
 
@@ -33,7 +33,7 @@ As soon as the player acculumates at least 6 points, the hint button will appear
 
 ## Why is the game called MUSIX?
 
-Because as soon as you obtain a streak with 6 or more correct songs in a row, you will gain the most points in the game for streaking. It is also because you need 6 or more points to use up a hint.
+Because as soon as the player obtains a streak with 6 or more correct songs in a row, they will gain the most points in the game for streaking. It is also because they need 6 or more points to use up a hint.
 
 Although an earlier iteration made when I was a senior in high school in early May 2022 had a streak of 6+ songs correct in a row allowing the player to gain 6 points, it was nerfed due to how the player could press "HINT" for every question and would make it 50/50 rather than 25/25/25/25. It was nerfed in mid May 2022.
 

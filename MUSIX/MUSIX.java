@@ -512,7 +512,7 @@ public class MUSIX extends JFrame implements ActionListener{
     public void question1(){
         // option1 is correct
         // hint to make only 1||4 correct
-        // set song to Robots and Aliens
+        // set song to Powerful Beat
         filePath = "song1.wav";
         // play the song
         playMusic();
@@ -529,13 +529,12 @@ public class MUSIX extends JFrame implements ActionListener{
         hint.setText("HINT");
 
     }
-    // 2nd question setup
     public void question2(){
         // option2 is correct
         // hint to make only 2||3 correct
         // stop previous song
         clip.stop();
-        // set song to Believe
+        // set song to Mountain Path
         filePath = "song2.wav";
         // play the song
         playMusic();
@@ -544,8 +543,8 @@ public class MUSIX extends JFrame implements ActionListener{
         // make necessary buttons visible
         setVisible();
         // change text of buttons
-        option1.setText("<html>Mountain Path<br />by Magnetic Trailer</html>");
-        option2.setText("<html>Believe<br />By NEFFEX</html>");
+        option1.setText("<html>Believe<br />By NEFFEX</html>");
+        option2.setText("<html>Mountain Path<br />by Magnetic Trailer</html>");
         option3.setText("<html>Tell Me That I Can't<br />By NEFFEX</html>");
         option4.setText("<html>Natural Light<br />By Chris Haugen</html>");
     }

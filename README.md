@@ -35,6 +35,18 @@ Because as soon as you obtain a streak with 6 or more correct songs in a row, yo
 
 Although an earlier iteration made when I was a senior in high school in early May 2022 had a streak of 6+ songs correct in a row allowing the player to gain 6 points, it was nerfed due to how the player could press "HINT" for every question and would make it 50/50 rather than 25/25/25/25. It was nerfed in mid May 2022.
 
+## What did I learn?
+
+1) How to use JFrame.
+2) How to use JOptionPane and give the options functionality.
+3) How to use create buttons and use ActionListeners with them.
+4) How to hide and show buttons.
+5) How to sent text fonts of buttons in Java.
+6) How to play and stop audio in Java.
+7) How to display a message dialog to the user.
+8) How to make a window popup close after any button press.
+9) How to properly make a functional game using JFrame by changing the text, questions, audio clip, amount of points, and if hint button should appear per question, using all of those skills I learned above, in addition with my previous knowledge on how to add an amount of points.
+
 ## Compiling
 
 This program uses solely Java to compile.

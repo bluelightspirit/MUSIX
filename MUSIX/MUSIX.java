@@ -21,12 +21,12 @@ import java.io.IOException;;
  *
  * @version (1/14/2023)
  * MUSIX plays a game in JFrame where the user decides
- * what song the song is from a 10-15 second clip.
+ * what song the song is from a ~20-30 second clip.
  */
 
 // the MUSIX class that sets up the interface in JFrame for the user to play in,
 // where the game is run from MUSIX() rather than public static void main (String[] args)
-// purpose: to have the user listen to a 10-15 second clip from a song for a question,
+// purpose: to have the user listen to a ~20-30 second clip from a song for a question,
 // then for the user to guess the answer of what song it is,
 // and if the user gets a streak of 6 or more, they get 5 points added
 // which is why the title is MUSIX.

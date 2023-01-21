@@ -3,7 +3,7 @@
 
 ## How does anyone play?
 
-Anyone should be aiming to see the game that looks like this:
+Anyone should be aiming to see the game that looks like this:\
 ![musix_ready-to-play](https://user-images.githubusercontent.com/22280271/213863759-61ce9e86-58ae-42f0-811a-905fe70fd7e8.png)
 
 First, the player must download the game and it's files, and double check if the [MUSIX](https://github.com/bluelightspirit/MUSIX/tree/main/MUSIX) folder has 10 songs and [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java). After that, the player should open the [MUSIX](https://github.com/bluelightspirit/MUSIX/tree/main/MUSIX) folder, then run [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java)'s main method. To do that, it is suggested to download the ZIP file from [Releases](https://github.com/bluelightspirit/Connect4/releases/) or copy the repo from a console like Git. Then, all 3 files should be compiled. After that, [MUSIX.java](https://github.com/bluelightspirit/MUSIX/blob/main/MUSIX/MUSIX.java) can be ran using any IDE that supports Java such as [IntelliJ](https://www.jetbrains.com/idea/download/) or [BlueJ](https://www.bluej.org/).

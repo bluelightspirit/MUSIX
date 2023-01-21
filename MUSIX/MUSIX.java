@@ -12,7 +12,8 @@ import java.io.IOException;;
  * @author Gary Young
  *
  * @description
- * Originally finished on 05/13/2022
+ * Originally started on 05/13/2022
+ * Originally finished on 06/03/2022
  * 01/14/2023 bugfix: now properly stops playing music immediately after answering 10th question
  * 01/14/2023 addition 1: added psvm (String[] args) linking to MUSIX() so user doesn't have to create an object on start anymore
  * 01/14/2023 addition 2: added "Ready to play?" to the top of the game when started at top of public MUSIX()

@@ -14,7 +14,7 @@ After that, to play this game, the player must click "Yes" then "Yes. I agree 10
 ![image](https://user-images.githubusercontent.com/22280271/213866461-7b6edaec-8010-4f5c-9adc-e9c824447f9f.png)\
 After that, the program will output ~20-30 second audio clip where the player shall select any of the 4 options as their guess. If they get it right, they will gain a point, or 3 points, or 5 points, depending on their streak they currently have. If they get it wrong, their streak ends. To use a hint, the player must have at least 6 points to have the option to remove two of the incorrect options for the songs, which will take away 6 points from the player's normal game points.
 
-The game should look like this if they pressed "Yes":\
+The game should look like this if they pressed "Yes. I agree 100%":\
 ![question1_musix](https://user-images.githubusercontent.com/22280271/213863808-755ce5b8-448b-4539-a3d1-a4e37f4b6819.png)
 
 

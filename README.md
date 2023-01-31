@@ -53,6 +53,10 @@ Although an earlier iteration made when I was a senior in high school in early M
 8) How to make a window popup close after any button press.
 9) How to properly make a functional game using JFrame by changing the text, questions, audio clip, amount of points, and if hint button should appear per question, using all of those skills I learned above in addition with my previous knowledge on how to add an amount of points.
 
+## What goal(s) did I accomplish?
+
+I created a game where the player tries to guess what song they're listening to with the goal of obtaining as many points as possible!
+
 ## Compiling
 
 This program uses solely Java to compile.
